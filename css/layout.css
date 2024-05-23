@@ -4,6 +4,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+
 }
 
 header ul {
@@ -23,7 +24,7 @@ header ul li a {
 
 header,
 footer {
-    background: #333;
+    background: #0e555aa8;
     color: white;
     padding: 20px 0;
     text-align: center;

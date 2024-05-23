@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <script>
+        function openMultipleLinks() {
+            window.open('https://bing.com/chat');
+            window.open('https://www.naver.com/');
+            window.open('http://www.youtube.com/');
+            window.open('https://discord.com/app');
+            window.open('https://lms.kyonggi.ac.kr/');
+            window.open('https://notion.so/');
+            window.open('https://chat.openai.com/');
+            window.open('https://www.iCloud.com/');
+            // 추가하고 싶은 링크들을 계속해서 여기에 추가하세요.
+        }
+    </script>
+    <style>
+        body {
+            background-image: url('data/송하영.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .opacity {
+            opacity: 0.8;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-around;
+            /* 아이콘들이 균등하게 분포되도록 합니다 */
+            flex-wrap: wrap;
+            /* 필요하다면 여러 줄로 나누어 표시 */
+        }
+
+        .top-site {
+            display: inline-block;
+            /* 인라인 블록 요소로 표시 */
+            padding: 10px;
+            /* 패딩 추가 */
+            background-color: #f0f0f0;
+            /* 배경색 설정 */
+            border-radius: 5px;
+            /* 경계선 둥글게 */
+            text-decoration: none;
+            /* 밑줄 제거 */
+            color: black;
+            /* 텍스트 색상 */
+            margin: 5px;
+            /* 마진 추가 */
+        }
+
+        .top-site:hover {
+            background-color: #e0e0e0;
+            /* 마우스 호버 시 배경색 변경 */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data/fromis9.svg">
+    <title>My Page Hello</title>
+
+</head>
+
+<body>
+    <h1 style="text-align: center;"> Welcome my Page
+        <a href="" onclick="openMultipleLinks();return false;" target="_blank">
+            <img src="data/fromis9.svg" width="20" height="20" alt="플로벙">
+        </a>
+    </h1>
+    <div>
+        <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FSeoul&bgcolor=%23ffffff&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&title=%EC%9D%BC%ED%95%B4%EB%9D%BC%20%EB%85%B8%EC%98%88&src=bXlob21lNzIyQGt5b25nZ2kuYWMua3I&src=a28uc291dGhfa29yZWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%2333B679&color=%230B8043"
+            style="border-width:0; margin-left:auto; margin-right:auto; display: block; width: 70%; opacity: 0.8;"
+            width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+
+        <div id="TopSitesCommon" class="content-container">
+            <a href="https://bing.com/chat" class="top-site" target="_blank">
+                <img src="data/copilot_color.svg">
+            </a>
+            <a href="https://www.naver.com/" class="top-site" target="_blank">
+                <img src="data/naver.png">
+            </a>
+            <a href="http://www.youtube.com/" class="top-site" title="YouTube" aria-label="YouTube" target="_blank">
+                <img src="data/youtube.png">
+            </a>
+            <a href="https://discord.com/app" class="top-site" target="_blank">
+                <img src="data/discord.jpg"></a>
+            <a href="https://lms.kyonggi.ac.kr/" class="top-site" target="_blank">
+                <img src="data/kgu.jpg"></a>
+            <a href="https://lms.kmooc.kr/course/view.php?id=12074" class="top-site" title="K-Mooc"
+                aria-label="K-Mooc" target="_blank">
+                <img src="data/f.jfif" width="40" height="40"></a>
+            <a href="https://notion.so/" class="top-site" target="_blank">
+                <img src="data/notion.jfif"></a>
+            <a href="https://chat.openai.com/" class="top-site" title="ChatGPT" aria-label="ChatGPT" target="_blank">
+                <img src="data/gpt.png" width="50" height="50"></a>
+            <a href="https://github.com/" class="top-site" target="_blank">
+                <img src="data/git.png" width="50" height="50">
+            </a>
+            <a href="https://www.iCloud.com/" class="top-site" target="_blank"><img
+                    src="https://www.icloud.com/system/icloud.com/2413Project46/e1527fd9c00277a5bbfd10c73d9b6763.png"
+                    width="50" height="50"></a>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

@@ -24,7 +24,7 @@ header ul li a {
 
 header,
 footer {
-    background: #0e555aa8;
+    background: #007474;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -35,3 +35,5 @@ footer {
     margin: auto;
     overflow: hidden;
 }
+
+

@@ -3,10 +3,21 @@ section {
     padding: 20px;
 }
 
+section p{
+    color: rgb(95, 95, 95);
+}
+
 .profile {
     padding: 10px 0;
     background: white;
     
+}
+
+.long-divider {
+    border: 0;
+    height: 2px; /* Border height */
+    background: linear-gradient(to right, #fff, #000, #fff); /* Gradient effect */
+    margin: 20px 0; /* Spacing around the divider */
 }
 
 .profile img {
@@ -17,9 +28,15 @@ section {
     display: block;
     float: left;
     margin: 0 20px 20px 10px; /* 오른쪽과 아래쪽에 여백 추가 */
-    border: 3px solid #c52727; /* 테두리 추가 */
+    border: 3px solid #00ffff; /* 테두리 추가 */
+}
+section li{
+    color: rgb(95, 95, 95);
 }
 
+section span {
+    color: #ff6347; /* Use your desired color here */
+}
 
 .profile h1 {
     text-align: center;
@@ -34,6 +51,8 @@ section {
     text-align: center;
     /* margin-top: 3px; */
 }
+
+
 
 .projects {
     background: #e7e7e7;
@@ -53,4 +72,18 @@ section {
 
 .contact p {
     text-align: center;
+}
+
+section h2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+section h2::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px; /* Border height */
+    background: linear-gradient(to right, #00f, #00ffff, #fff); /*Gradient effect*/
+    margin-left: 10px; /* Adjust the spacing between the text and the divider */
 }

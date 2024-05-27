@@ -34,7 +34,7 @@ section li{
     color: rgb(95, 95, 95);
 }
 
-section span {
+.highlight {
     color: #ff6347; /* Use your desired color here */
 }
 
@@ -78,6 +78,15 @@ section h2 {
     position: relative;
     display: flex;
     align-items: center;
+}
+section h2 span{
+    color: #ff6347; /* Use your desired color here */
+}
+
+section p span{
+    float:right;
+    display: inline-block;
+    
 }
 
 section h2::after {

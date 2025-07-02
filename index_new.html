@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 개인 홈페이지</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 헤더 -->
+        <div class="header">
+            <h1>🏠 내 개인 홈페이지</h1>
+            <p>당신만의 특별한 공간에 오신 것을 환영합니다</p>
+        </div>
+
+        <!-- 검색 위젯 -->
+        <div class="widget search-widget">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="구글에서 검색..." id="searchInput">
+                <button class="search-btn" onclick="performSearch()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </div>
+            <a href="https://github.com" target="_blank" class="github-link">
+                <span class="github-icon">🐙</span>
+                <span>GitHub</span>
+            </a>
+        </div>
+
+        <!-- 퀵링크 위젯 -->
+        <div class="widget quicklinks-widget">
+            <h3>⚡ 퀵링크</h3>
+            <div class="quicklinks" id="quicklinksContainer">
+                <a href="https://www.youtube.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">📺</div>
+                    YouTube
+                </a>
+                <a href="https://www.netflix.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">🎬</div>
+                    Netflix
+                </a>
+                <a href="https://mail.google.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">📧</div>
+                    Gmail
+                </a>
+                <a href="https://drive.google.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">💾</div>
+                    Drive
+                </a>
+                <a href="https://www.notion.so" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">📝</div>
+                    Notion
+                </a>
+                <a href="https://discord.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">💬</div>
+                    Discord
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">📷</div>
+                    Instagram
+                </a>
+                <a href="https://twitter.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">🐦</div>
+                    Twitter
+                </a>
+                <a href="https://www.reddit.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">🔴</div>
+                    Reddit
+                </a>
+                <a href="https://stackoverflow.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">📚</div>
+                    Stack Overflow
+                </a>
+                <a href="https://chatgpt.com" target="_blank" class="quick-link">
+                    <div class="quick-link-icon">🤖</div>
+                    ChatGPT
+                </a>
+            </div>
+        </div>
+
+        <!-- 구글 캘린더 임베드 위젯 -->
+        <div class="widget google-calendar-widget">
+            <h3>📋 내 구글 캘린더</h3>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FSeoul&showPrint=0&showTz=0&hl=ko&src=bXlob21lNzIyQGt5b25nZ2kuYWMua3I&src=a28uc291dGhfa29yZWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285f4&color=%230b8043"
+                frameborder="0" 
+                scrolling="no">
+            </iframe>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
